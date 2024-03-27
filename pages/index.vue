@@ -1,8 +1,11 @@
 <script setup lang="ts">
 // @ts-ignore
 const { sayHello } = useUtils();
-console.log('pre-hello string')
-sayHello()
+// @ts-ignore
+const { $sayHello } = useNuxtApp();
+$sayHello("Yuriy");
+console.log("pre-hello string");
+sayHello();
 </script>
 <template>
   <div class="Main">
