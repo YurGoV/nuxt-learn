@@ -5,6 +5,7 @@
       <li>
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="events">Events</NuxtLink>
+        <NuxtLink to="custom">Custom</NuxtLink>
       </li>
     </ul>
   </div>
