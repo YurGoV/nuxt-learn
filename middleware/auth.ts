@@ -3,8 +3,8 @@ export default defineNuxtRouteMiddleware((to, from) => {
   // console.log(to, 'to')
   // console.log(from, 'from')
 
-  console.log("auth middleware");
-  const isLoggedIn = false;
+  console.log('auth middleware')
+  const isLoggedIn = false
   // const isLoggedIn = true;
   // // to is the destination
   // if (isLoggedIn && to.fullPath === "/custom") {
@@ -16,8 +16,8 @@ export default defineNuxtRouteMiddleware((to, from) => {
   // }
   // redirect to a login page
   // return navigateTo("/login");
-  if (!isLoggedIn && to.fullPath !== "/custom") {
-    console.log("auth middleware 2");
-    return navigateTo("/custom");
+  if (!isLoggedIn && to.fullPath !== '/custom') {
+    console.log('auth middleware 2')
+    return navigateTo('/custom')
   }
-});
+})
