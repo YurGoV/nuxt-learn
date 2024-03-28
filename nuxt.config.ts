@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     // assets: "/<rootDir>/assets"
   },
   css: ["~/assets/main.scss"],
-  modules: ["@nuxt/content"],
+  // modules: ["@nuxt/content", "@nuxtjs/eslint-module"],
+  modules: ["@nuxt/content",],
   postcss: {
     plugins: {
       tailwindcss: {},
