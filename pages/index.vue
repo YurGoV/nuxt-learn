@@ -9,6 +9,7 @@ sayHello();
 </script>
 <template>
   <div class="Main">
+    <ContentDoc />
     <IconsBicycle />
     <Alert />
     <Profile />
