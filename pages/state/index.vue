@@ -1,5 +1,6 @@
 <script setup lang="ts">
 // const counter = useState("counter", () => Math.round(Math.random() * 1000));
+// @ts-ignore
 const counter = useCounter()
 </script>
 <template>
@@ -16,6 +17,5 @@ const counter = useCounter()
         -
       </button>
     </div>
-    kCounter />
   </div>
 </template>

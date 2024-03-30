@@ -22,6 +22,11 @@
           State
         </NuxtLink>
       </li>
+      <li>
+        <NuxtLink to="products-count-async">
+          ProductsCountAsync
+        </NuxtLink>
+      </li>
     </ul>
   </div>
   <!-- </header> -->
