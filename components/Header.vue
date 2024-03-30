@@ -27,6 +27,11 @@
           ProductsCountAsync
         </NuxtLink>
       </li>
+      <li>
+        <NuxtLink to="custom-ceo">
+          Custom CEO Page
+        </NuxtLink>
+      </li>
     </ul>
   </div>
   <!-- </header> -->

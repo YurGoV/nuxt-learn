@@ -43,7 +43,9 @@ const { pending, data: asyncProducts } = await useLazyFetch('/api/products-async
 </script>
 <template>
   <div class="Main">
-    <ContentDoc />
+    <!-- NOTE: commented to check meta in nuxt.config.ts -->
+    <!-- if uncomment - /content/indes.md header will be applied -->
+    <!-- <ContentDoc /> -->
     <IconsBicycle />
     <Alert />
     <Profile />
