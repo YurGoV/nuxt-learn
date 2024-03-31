@@ -32,6 +32,11 @@
           Custom CEO Page
         </NuxtLink>
       </li>
+      <li>
+        <NuxtLink to="content">
+          ContentDoc page
+        </NuxtLink>
+      </li>
     </ul>
   </div>
   <!-- </header> -->

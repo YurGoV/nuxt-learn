@@ -1,0 +1,16 @@
+@tailwind base;
+
+/* @layer base { */
+/*   html { */
+/*     @apply text-purple-700; */
+/*   } */
+/* } */
+
+@layer base {
+  h1 {
+    @apply text-red-500;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;

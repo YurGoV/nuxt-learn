@@ -6,7 +6,7 @@ definePageMeta({
 </script>
 <template>
   <div class="Custom page">
-    <p>Custom page</p>
+    <h1>Custom page</h1>
     <!-- NOTE: this is from assets folder, with preprocessing -->
     <img src="~/assets/01.png" alt="postgre schema">
     <!-- <img src="@/assets/01.png" alt="postgre schema" /> -->

@@ -14,15 +14,31 @@ export default defineNuxtConfig({
     '@': resolve(__dirname, '/')
     // assets: "/<rootDir>/assets"
   },
-  css: ['~/assets/main.scss'],
-  modules: ['@nuxt/content', ['@nuxtjs/eslint-module', { lintOnStart: false }]],
+  // css: ['~/assets/main.scss'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxt/content',
+    ['@nuxtjs/eslint-module', { lintOnStart: false }]
+  ],
   // modules: ["@nuxt/content",],
   postcss: {
     plugins: {
-      tailwindcss: {},
+      // tailwindcss: {},
       autoprefixer: {}
     }
   }
+
+  // @ts-ignore
   // },
   // ssr: false
 })
+
+// tailwindcss: {
+//   cssPath: ['~/assets/css/tailwind.css', { injectPosition: 'first' }],
+//   configPath: 'tailwind.config',
+//   exposeConfig: {
+//     level: 2
+//   },
+//   config: {},
+//   viewer: true
+// }
